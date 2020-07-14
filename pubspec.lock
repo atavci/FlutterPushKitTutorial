@@ -73,7 +73,7 @@ packages:
       name: huawei_push
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.4+1"
+    version: "4.0.4+300"
   matcher:
     dependency: transitive
     description:
