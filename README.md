@@ -1,16 +1,17 @@
 # flutter_push_kit_tutorial
 
-A new Flutter project.
+An example project that shows how to use Huawei Push Kit Plugin for Flutter.
 
-## Getting Started
+The tutorial is on [this medium post](https://medium.com/huawei-developers/sending-push-notifications-on-flutter-with-huawei-push-kit-plugin-534787862b4d) please check it first.
 
-This project is a starting point for a Flutter application.
+## Notes before building
 
-A few resources to get you started if this is your first Flutter project:
+I removed the agconnect-services.json and key.properties files for obvious reasons. Add your versions of these files (you can refer to the medium post) and then you can run the app by following commands:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Get the dependencies:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`flutter pub get`
+
+Build&Run the application
+
+`flutter run`
